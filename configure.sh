@@ -1,5 +1,7 @@
+#!/bin/bash
 
-n update() {
+
+functionn update() {
   sudo apt update && \
   sudo apt upgrade -y
 }
